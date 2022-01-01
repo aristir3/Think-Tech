@@ -1,0 +1,187 @@
+body{
+  background-image: url(../img/Background\ Web\ png-Recovered.png);
+}
+#section1 {
+  background-image: none;
+}
+#aboutas{
+  color: white;
+  padding: 10px;
+}
+.aboutasimg{
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 450px;
+  margin-bottom: 100px;
+}
+.aboutasimg h3{
+  margin-left: 0px;
+}
+.aboutasimg img{
+  width: 416px;
+  height: 73px;
+}
+#aboutas h2{
+  font-size: 20px;
+  margin-left: 150px;
+  margin-bottom: 50px;
+}
+#aboutas p{
+  margin-left: 150px;
+  width: 1100px;
+  font-size: 18px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#aboutas{
+  margin-bottom: 150px;
+}
+#blogs h1{
+  color: blue;
+  text-align: center;
+  margin: 100PX 0 50PX 0; 
+}
+.bloglink{
+  margin-left: 450px;
+  margin-bottom: 50px;
+}
+.bloglink li{
+  display: inline-flex;
+}
+.bloglink a{
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
+.blogpost{
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1360px;
+  margin-left: 10px;
+  display: flex;
+  color: white;
+}
+.postblog img{
+  margin:0 15px 0 15px;
+  padding: 0px;
+}
+.postblog h4,p{
+  margin-top: 10px;
+  margin-left: 12px;
+}
+#blogs{
+  margin-bottom: 100px;
+}
+.buttons{
+  margin-top: 50px;
+  margin-left: 550px;
+}
+.buttons a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+.buttons a:hover {
+  background-color: blue;
+  color: black;
+}
+.next {
+  color: white;
+  border-radius: 50%;
+}
+#post1 h1{
+  color: blue;
+  text-align: center;
+  margin: 100PX 0 50PX 0;
+}
+.post1 img{
+  width: 900px;
+  height: auto;
+  margin: 50px 0 50px 250px;
+}
+.postcontent p,h3{
+  width: 900px;
+  color: white;
+  margin-left: 250px;
+}
+#post1 h6{
+  margin-left: 245px;
+  color: white;
+  margin-right: 670px;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+.post1 li{
+  margin-right: 20px;
+  list-style: none;
+  display: inline;
+}
+.posticon {
+  display: flex;
+}
+.post1 a{
+  color: white;
+}
+.postcontent p {
+  font-size: 14px;
+}
+.postcontent hr {
+  margin-left: 250px;
+  width: 900px;
+  margin-bottom: 100px;
+}
+.comments{
+  margin-left: 250px;
+  width: 900px;
+  margin-bottom: 200px;
+}
+.comment{
+  color: white;
+  margin-bottom: 50px;
+}
+.comment h5{
+  margin: 10px 0 10px 0;
+  width: 700px;
+  font-size: 13px;
+}
+.comment img {
+  margin: 0px;
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+  color: white;
+  float: left;
+}
+.comments hr {
+  margin-left: 0px;
+  margin-bottom: 100px;
+}
+.leaveacomment {
+  color: white;
+}
+.leaveacomment p{
+  margin: 0px;
+  margin-bottom: 50px;
+}
+.leaveacomment button{
+  margin-left: 5px; 
+  margin-right: 5px;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #37A2DB;
+  width: 100px;
+  height: 33px;
+}
+.leaveacomment textarea{
+  background-color: rgb(128, 128, 128);
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+.leaveacomment textarea::placeholder{
+  color: white; 
+  font-size: 14px;
+  padding: 20px;
+}
