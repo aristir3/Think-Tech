@@ -1,0 +1,123 @@
+
+form{
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    height: 700px;
+}
+form img {
+    margin-top: 50px;
+}
+.userinput input{
+    width: 350px;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.userinput input::placeholder{
+    padding: 5px;
+    padding-left: 30px;
+}
+form button{
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    width: 350px;
+    margin-top: 30px;
+    height: 60px;
+    font-size: 15px;
+}
+form a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+.download{
+    margin-left: 60px;
+    color: white;
+    text-align: center;
+    display: flex;
+}
+.download button{
+    width: 180px;
+    margin-right: 40px;
+}
+.download ul{
+    list-style: none;
+    display: flex;
+}
+.formicon {
+    padding-left: 30px;
+}
+
+.footerdata{
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.userdata p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+.userdata{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 650px;
+    z-index: 1;
+}
+input[type='checkbox'] { 
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 20px;
+ }
+ label{
+     margin-right: 230px;
+ }
+ @media screen and (max-width: 600px) {
+    form{
+        width: 300px;
+        margin-top: 0px;
+        height: auto;
+    }
+    .userinput input{
+        width: 200px;
+        height: 45px;
+    }
+    form button{
+        width: 200px;
+    }
+    .download{
+        display: none;
+    }
+    .userdata{
+        margin-top: 0;
+        margin-left: 30px;
+    }
+    input[type='checkbox'] { 
+        width: 10px;
+        height: 10px;
+        margin-left: -100px;
+     }
+     label{
+        margin-right: 0;
+    }
+    .userinput p {
+        margin: 0;
+        text-align: center;
+        margin-top: 10px;
+    }
+   
+  }
+
+  @media screen and (min-width: 1360px) {
+    .userdata{
+        margin-left: 450px;
+    }
+  }
