@@ -3,6 +3,10 @@
     padding: 0;
     margin: 0;
 }
+body{
+  background-color: #15122b;
+  overflow-x: hidden;
+}
 button{
   cursor: pointer;
 }
@@ -16,7 +20,6 @@ header::before{
     width: 1920px;
     height: 130px;
 }
-
 #section1{
     background-image: url("../img/pexels-luis-quintero-2774556.png");
     width: 1920px;
@@ -26,10 +29,6 @@ header::before{
     background-repeat: no-repeat;
     background-size: cover;
 }
-body{
-    background-color: #15122b;
-}
-
 .topnav {
   overflow: hidden;
 }
@@ -45,9 +44,6 @@ body{
   font-size: 17px;
   margin-top: 57px;
 }
-
-
-
 .topnav .bars {
   display: none;
 }
@@ -57,8 +53,6 @@ body{
   width: 179px;
   height: auto;
 }
-
-
 #signup {
     margin-left: 405px;
     width: 60px;
