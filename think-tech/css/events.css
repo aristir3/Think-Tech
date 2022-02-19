@@ -1,0 +1,168 @@
+.events{
+    margin: 200px 0 100px 350px; 
+}
+.bievent {
+    display: none;
+}
+.eventtitles i {
+    margin-left: 630px;
+}
+.eventtitles{
+    margin-bottom: 100px;
+}
+.titleevent{
+    margin: 100px 0 20px 300px;
+    display: flex;
+    color: white;
+}
+.titleevent a {
+    font-family: 'Gordita';
+    font-weight: Medium;
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+}
+.location{
+    display: flex;
+}
+.titleevent p {
+    margin-right: 30px;
+    width: 130px;;
+}
+.titleevent h1 {
+    margin-right: 650px;
+}
+.hrevents1{
+    display: none;
+}
+.titleevent img{
+    padding: 5px;
+}
+.hrevents {
+    margin-left: 300px;
+    width: 1235px;
+    border-top:  1px;
+    margin-bottom: 50px;
+}
+.contentevent p {
+    font-family: 'Gordita';
+    font-size: 16px;
+    color: white;
+    margin-left: 300px;
+    width: 1235px;
+}
+.contentevent {
+    margin-bottom: 50px;
+}
+.gallery{
+    text-align: center;
+    color: white;
+}
+.gallery i {
+    margin-left: 0px;
+}
+.imggallery{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 300px;
+    width: 1360px;
+    height: 650px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    direction: rtl;
+}
+.galleryphoto img {
+    width: 315px;
+    height: 314px;
+    padding: 5px;
+    cursor: pointer;
+}
+.galleryphoto{
+    direction: ltr;
+}
+.imggallery::-webkit-scrollbar {
+    width: 10px;
+  }
+.imggallery::-webkit-scrollbar-track {
+    background: rgb(65, 65, 65);
+    border-radius: 5px;
+}
+.imggallery::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+.container {
+    margin-left: 600px;
+    width: 700px;
+    height: auto;
+    position: absolute;
+    display: none;
+  }
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+  
+
+    @media screen and (min-width: 1024px) and (max-width: 1400px) {
+        .events{
+            margin: 200px 0 100px 200px; 
+        }
+        .eventtitles i {
+            margin-left: 630px;
+        }
+        .titleevent{
+            margin: 100px 0 20px 200px;
+        }
+        .titleevent p {
+            margin-right: 30px;
+            font-size: 15px;
+        }
+        .titleevent a {
+            font-size: 18px;
+        }
+        .titleevent h1 {
+            margin-right: 350px;
+            width: 250px;
+        }
+        .titleevent img{
+            padding: 5px;
+        }
+        .hrevents {
+            margin-left: 200px;
+            width: 1000px;
+        }
+        .contentevent p {
+            margin-left: 200px;
+            width: 1000px;
+            font-size: 14px;
+        }
+        .imggallery{
+            margin-top: 50px;
+            margin-bottom: 100px;
+            margin-left: 200px;
+            width: 1000px;
+            height: 475px;
+        }
+        .galleryphoto img {
+            width: 236px;
+            height: 234px;
+            padding: 3px;
+        }
+        .container {
+            margin-left: 450px;
+            width: 500px;
+          }
+    }
